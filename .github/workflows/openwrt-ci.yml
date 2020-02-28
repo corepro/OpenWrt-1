@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI
+name: OpenWrt-CI2
 
 on:
   push:
@@ -16,8 +16,8 @@ on:
   #     ↑↑↑ 改成你的分支名, 一般是master
   # schedule:
   #   - cron: 0 20 * * *
-   release:
-     types: [published]
+  watch:
+    types: starte
 
 jobs:
   build:
